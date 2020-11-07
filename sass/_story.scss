@@ -5,7 +5,26 @@
     }
 
     &__content {
-        background-color: $color-grey-dark-1;
+        background-color: $color-grey-light-1;
         grid-column: col-start 5 / full-end;
+
+        padding: 6rem 8vw;
+
+        // This how we can center elements using flexbox
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
+        // align-items: flex-start;
+
+        // This is how we can center elements using grid
+        display: grid;
+        align-content: center;
+        justify-items: start;
+    }
+
+    &__text {
+        font-size: 1.5rem;
+        font-style: italic;
+        margin-bottom: 4rem;
     }
 }
