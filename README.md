@@ -1,4 +1,5 @@
 # Course: [Advanced CSS and SASS ](https://www.udemy.com/advanced-css-and-sass/)
+## Author: Jonas Schmedtmann
 
 ##### [See the live demo ](https://asif-newaz.github.io/nexter/)
 ---
